@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 import Movie from "../component/Movie";
 
-import "../../styles/home.scss";
+import "../../styles/index.scss";
 
 export const Home = () => {
 	return (
-		<div>
+		<div className="d-flex justify-content-center">
 			<Movie />
 		</div>
 	);
